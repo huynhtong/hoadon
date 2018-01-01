@@ -45,7 +45,7 @@ $(document).ready(function() {
             var img = canvas.toDataURL();
             $("#export_img").attr('src',img);
             $("#export_download").attr('href',img);
-            $("#export_dropbox").attr('href',img);
+            $("#export_dropbox").attr('href','/style.css');
         }); 
         $("#export").modal('open');
     } 
